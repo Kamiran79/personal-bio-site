@@ -1,0 +1,225 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nav-item {
+    float: left;
+  }
+  
+  .nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;;
+  }
+  
+  .nav-item a:hover {
+    background-color: #111;
+  }
+
+
+#clickPet {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.btnPet01 {
+    margin: 20px;
+    padding: 5px 15px 5px 15px;
+    background-color: #5BC0DF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;    
+}
+
+.btnPet02 {
+    margin: 20px;
+    padding: 5px 15px 5px 15px;
+    background-color: #5CB85B;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;    
+}
+
+.btnPet03 {
+    margin: 20px;
+    padding: 5px 15px 5px 15px;
+    background-color: #F0AD4E;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;    
+}
+
+.btnPet04 {
+    margin: 20px;
+    padding: 5px 15px 5px 15px;    
+}
+
+
+
+/* This will be the section or continear or products*/
+#projectsPage {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/* This will be the div section for the card or item inside the section*/
+.projectsP {
+    border: 1px solid #DDDDDD;
+    height: 650px;
+    width: 450px;
+    margin: 10px;
+    padding: 0px;
+    transition: border-radius 1s, background-color 1s;
+    background-color: white;
+    border-radius: 5px;
+  
+}
+
+/* This is the name of Pet*/
+.projectsP h2 {
+    text-align: center;
+    padding: 10px;
+    background-color:#EEEEEE;
+    margin: 0;
+    color: #9A9A9A;
+    border-radius: 5px;
+    border: 1px solid #E3E3E3;
+}
+
+/* This the Image inside the card*/
+.projectsP img {
+    object-fit: cover;
+    width: 350px;
+    height: 150px;    
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #E3E3E3;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display:block    
+}
+
+/* This is for the color of the Pet*/
+.projectsP h3 {
+    text-align: center;        
+    position: relative;
+    top: -30px;
+    font-weight: normal;
+}
+.ava {
+    background-color: gray;
+    color: yellow;
+    padding: 10px;
+}
+
+.projectsP p {
+    text-align: left;    
+    height: 80px;
+    margin-left: 10px;
+    position: relative;
+    top: -30px;
+}
+
+.projectsP h4 {
+    margin-left: 10px;
+}
+
+.projectsP a {
+    text-decoration: none;
+}
+
+.projectsP a:hover {
+    color: darkgreen;
+}
+
+/*
+.dino:hover {
+    background-color: rgb(230, 230, 227);
+    /*border-radius: 0 20px;*/
+  /*  border: 3px solid green;
+  }
+*/
+/* class for the pet type*/
+.name1 {
+    background-color: #DAEDF7;
+    color: #1B65C0;
+    text-align: center;
+    margin: auto;
+    padding: 15px 0 15px 0;            
+    position: relative;
+    bottom: 47px;
+    border: 1px solid #BCE8F1;
+    border-radius: 5px;
+    text-transform:capitalize;
+}
+
+.name1:visited {
+    background-color: tomato;
+}
+
+.name2 {
+    background-color: #DFF0D8;
+    color: #3A8F3D;
+    text-align: center;
+    margin: auto;
+    padding: 15px 0 15px 0;            
+    position: relative;
+    bottom: 47px;
+    border-bottom: 1px solid #DDF3F8;
+    border-radius: 5px;
+    text-transform:capitalize;
+}
+.name3 {
+    background-color: #FDF8E3;
+    color: #FEBA55;
+    text-align: center;
+    margin: auto;
+    padding: 15px 0 15px 0;            
+    position: relative;
+    bottom: 47px;
+    border-bottom: 1px solid #FBF1D9;
+    border-radius: 5px;  
+    text-transform:capitalize;  
+}
+
+
+footer {
+    width: 100%;
+    color: aliceblue;
+    /* I like that color cadetblue */
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+
+  footer a{
+      text-decoration: none;
+      color: yellow;
+  }
+
+  footer a:hover {
+      background-color: blue;
+  }
