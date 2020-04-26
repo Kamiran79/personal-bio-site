@@ -28,35 +28,44 @@ body {
   }
 
 
-#clickPet {
+#clickProjects {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     margin: 10px;
     padding: 10px;
+    text-align: center;    
 }
-
-.btnPet01 {
+/* this is button for show cats not used here */
+.btnPro01 {
     margin: 20px;
     padding: 5px 15px 5px 15px;
     background-color: #5BC0DF;
     color: white;
     font-weight: bold;
     border: none;
-    border-radius: 3px;    
+    border-radius: 3px;
+    width: 150px;        
 }
 
-.btnPet02 {
+.btnPro01:hover {
+    box-shadow: 2px 2px 10px grey;
+}
+
+/* this is button for show dogs not used here */
+.btnPro02 {
     margin: 20px;
     padding: 5px 15px 5px 15px;
     background-color: #5CB85B;
     color: white;
     font-weight: bold;
     border: none;
-    border-radius: 3px;    
+    border-radius: 3px;
+    width: 150px;    
 }
 
-.btnPet03 {
+/* this is button for show dinos not used here */
+.btnPro03 {
     margin: 20px;
     padding: 5px 15px 5px 15px;
     background-color: #F0AD4E;
@@ -66,7 +75,8 @@ body {
     border-radius: 3px;    
 }
 
-.btnPet04 {
+/* this is button for show all pets not used here */
+.btnPro04 {
     margin: 20px;
     padding: 5px 15px 5px 15px;    
 }
@@ -83,14 +93,17 @@ body {
 /* This will be the div section for the card or item inside the section*/
 .projectsP {
     border: 1px solid #DDDDDD;
-    height: 650px;
+    height: 550px;
     width: 450px;
     margin: 10px;
     padding: 0px;
     transition: border-radius 1s, background-color 1s;
     background-color: white;
-    border-radius: 5px;
-  
+    border-radius: 5px;  
+}
+
+.showMe {
+     display: block;
 }
 
 /* This is the name of Pet*/
@@ -122,27 +135,38 @@ body {
 
 /* This is for the color of the Pet*/
 .projectsP h3 {
-    text-align: center;        
+    text-align: center;
+    height: 50px;        
     position: relative;
     top: -30px;
     font-weight: normal;
 }
+
+.projectsP h4 {
+    text-align: center;
+    position: relative;
+    top: -30px;
+    padding: 10px;
+    font-weight: normal;
+}
+
 .ava {
     background-color: gray;
     color: yellow;
-    padding: 10px;
 }
 
 .projectsP p {
     text-align: left;    
-    height: 80px;
+    /*height: 80px;*/
     margin-left: 10px;
     position: relative;
     top: -30px;
 }
 
-.projectsP h4 {
+.projectsP h5 {
     margin-left: 10px;
+    position: relative;
+    top: -35px;
 }
 
 .projectsP a {
@@ -210,7 +234,7 @@ footer {
     /* I like that color cadetblue */
     background-color: #333;
     padding: 10px;
-    position: fixed;
+    /* position: fixed;  this can not move it*/
     left: 0;
     bottom: 0;
   }
